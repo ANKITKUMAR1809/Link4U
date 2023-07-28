@@ -4,196 +4,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/bca90eb407.js" crossorigin="anonymous"></script>
     <title>Link4U</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/yt.css">
 </head>
+<!-- 12-07-23 -->
 
 <body>
+    <!-- navbar -->
     <nav id="navbar">
-        <div id="sitename">
-        <h1>Link4U</h1>
+        <div id="sitename" style="flex:23%">
+            <h1>Link4U.com</h1>
         </div>
-        <ul>
+        <ul style="flex:50%">
             <li><a href="index.html">Home</a></li>
             <li><a href="yt.html">Youtube</a></li>
             <li><a href="web.html">Website</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
+        <!-- drop down -->
+        <div class="dropdown" style="flex:10%">
+            <button class="dropbtn"><i class="material-icons">message</i>
+                <i class="material-icons">arrow_drop_down</i>            </button>
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/nainaeshubarnwal/" target="_blank"><i class='fab fa-instagram' style='font-size:36px; color:rgb(129, 34, 34)' ></i></a>
+                <a href="https://www.linkedin.com/in/ankit-kumar-990619145/" target="_blank"><i class='fab fa-linkedin' style='font-size:36px; color:navy' ></i></a>
+                <a href="https://www.youtube.com/@seshukiduniya" target="_blank"><i class='fab fa-youtube' style='font-size:36px; color:red' ></i></a>
+            </div>
+        </div>
     </nav>
+    <!-- category dropdown -->
+    <div class="dropdown " id="category">
+        <button class="dropbtn">Category
+            <i class="material-icons">arrow_drop_down</i></button>
+        <div class="dropdown-content">
+           <a href="#educ">Education</a>
+           <a href="#proc">Programming</a>
+           <a href="#gamec">Gaming</a>
+           <a href="#motc">Motivating</a>
+           <a href="#techc">Tech</a>
+           <a href="#finc">Financial</a>
+           <a href="#blogc">Blogging</a>
+           <a href="#enterc">Entertainment</a>
+           <a href="#podc">Podcast</a>
+           <!-- <a href=""></a> -->
+        </div>
+    </div>
+
+    <!-- heading for Youtube -->
     <h1 class="h1name">Youtube</h1>
-    <h2 class="subch2">Programming Channel</h2>
-    <!-- card -->
+    <h2 class="subch2" id="educ">Education Channel</h2>
+
+    <!-- list of links under list class -->
+    <!-- list 1 of programming -->
     <div class="list">
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Seshu</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
+
+    </div>
+
+    <h2 class="subch2" id="proc">Programming Channels</h2>
+
+    <!-- List 2 of Financial  -->
+
+    <div class="list">
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
     </div>
-    <h2 class="subch2">Financial Channel</h2>
-    <!-- card -->
+    <h2 class="subch2" id="gamec">Gaming Channels</h2>
+    <!-- list 3 of software download -->
+
     <div class="list">
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
-            </div>
-        </a>
-
-        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
-            <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
     </div>
 
-    <h1 class="h1name">Website</h1>
-    <h2 class="subch2">Software Download</h2>
-    <!-- card -->
+    <h2 class="subch2" id="motc">Motivating Channels</h2>
+    <!-- list 4 of Motivation -->
     <div class="list">
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
-            </div>
-        </a>
-        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
-            <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
     </div>
 
-    <h2 class="subch2">Study Websites</h2>
-    <!-- card -->
+    <h2 class="subch2" id="techc">Tech Channels</h2>
+    <!-- list 4 of Tech -->
     <div class="list">
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>Getintopc</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
 
         <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
             <div class="card">
-                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
-                <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
             </div>
         </a>
     </div>
+
+    <h2 class="subch2" id="finc">Financial Channels</h2>
+    <!-- list 4 of financial -->
+    <div class="list">
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+    </div>
+
+    <h2 class="subch2" id="blogc">Blogging Channels</h2>
+    <!-- list 4 of blogging -->
+    <div class="list">
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+    </div>
+
+    <h2 class="subch2" id="enterc">Entertainment Channels</h2>
+    <!-- list 4 of study websites -->
+    <div class="list">
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+    </div>
+
+    <h2 class="subch2" id="podc">PodCast Channels</h2>
+    <!-- list 4 of study websites -->
+    <div class="list">
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>Seshu</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/@ankitbarnwal1809" class="quicklink" target="_blank">
+            <div class="card">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- contact section for any enquiry or problem -->
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
@@ -201,22 +326,22 @@
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name" placeholder="Enter Your name">
-                    
+
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
                     <input type="email" name="email" id="email" placeholder="Enter Your E-mail">
-                    
+
                 </div>
                 <div class="form-group">
                     <label for="phne">Phone</label>
                     <input type="phone" name="phne" id="phne" placeholder="Enter Your Phone No.">
-                    
+
                 </div>
                 <div class="form-group">
                     <label for="message">Message:</label>
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-                    
+
                 </div>
                 <div class="form-group">
                     <button type="submit" value="submit">Submit</button>
@@ -224,6 +349,8 @@
             </form>
         </div>
     </section>
+
+    <!-- footer section -->
     <footer>
         <div class="center">
             Copyright &copy; www.Link4U.com All Right Reserved!

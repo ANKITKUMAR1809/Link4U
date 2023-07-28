@@ -228,7 +228,11 @@ footer{
 }
 
 @media (max-width:900px) {
-    #navbar{ flex-direction: column;}
+    #navbar{ 
+        flex-direction: column; 
+        position: fixed;
+        top:0;
+    }
     #navbar ul{
         flex-direction: column;
         padding:0px;
